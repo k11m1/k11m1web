@@ -1,0 +1,87 @@
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
+/* img { */
+/*     width: 150px; */
+/*     border-radius: 4px; */
+/*   padding: 5px; */
+/*   border-radius: 50%; */
+/* } */
+.avatar {
+  vertical-align: middle;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+    margin-right: 2%;
+}
+
+
+html, body{
+  height: 100%;
+  font-weight: 800;
+}
+
+body{
+  background: #030321;
+  font-family: Arial;
+}
+
+svg {
+    display: block;
+    /* font: 10.5em 'Montserrat'; */
+    width: 960px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.0s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #00ff99;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #00ccff;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #ffff33;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #66ff66;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #3333ff;
+	animation-delay: -5s;
+}
+.text-copy:nth-child(6){
+	stroke: #794dff;
+	animation-delay: -6s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+.big {
+    font-size: 96px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
